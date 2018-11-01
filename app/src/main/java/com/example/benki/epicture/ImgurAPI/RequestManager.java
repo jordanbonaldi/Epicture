@@ -15,51 +15,42 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
-/**
- * DEV_epicture_2018
- * Created by Lucas Benkemoun on 31/10/18.
- * Copyright © 2018 Lucas Benkemoun. All rights reserved.
- */
 public class RequestManager {
 
     private final String username;
 
     private final String access;
 
+    private final String clientid;
+
     private final HashMap<String, String> params;
 
     private final UserSettings settings;
 
+    @Getter
+    @RequiredArgsConstructor
     public class UserSettings {
-        String access;
-        String username;
-
-        public UserSettings(String access, String username) {
-            this.access = access;
-            this.username = username;
-        }
-
-        public String getAccess() {
-            return access;
-        }
-
-        public String getUsername() {
-            return username;
-        }
+        private final String access;
+        private final String username;
+        private final String id;
     }
 
     public interface RequestProcessing {
         String setAuthorisation(UserSettings settings);
     }
 
-    public RequestManager(String username, String access) {
+    public RequestManager(String username, String access, String clientid) {
         this.username = username;
         this.access = access;
+        this.clientid = clientid;
         this.params = new HashMap<>();
-        this.settings = new UserSettings(this.access, this.username);
+        this.settings = new UserSettings(this.access, this.username, this.clientid);
     }
 
     private void setHeader(String authorisation) {

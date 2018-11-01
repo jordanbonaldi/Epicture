@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/benki/Epitech/DEV_epicture_2018/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/Users/neferett/Documents/work/Epitech/Epicture/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
-                    "source": "/home/benki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/304b50dec0450de3afd7eacc6e50392b/res/values-nl/values-nl.xml",
+                    "source": "/Users/neferett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2b80eada77a8082f05e5a23101174a5d/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/res/values-nl/values-nl.xml",
+                    "source": "/Users/neferett/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/16b5993d18958143e84754d9acbbad17/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
