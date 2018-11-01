@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/fb2547a0db45bb225d3a1e8cd80194ab/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/304b50dec0450de3afd7eacc6e50392b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e426de36f90c4dedf2f1100b92faaa96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/c069e079802145230a88bdf0ae11b30f/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6c67194ba08ab332ddcec29053f77b9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3436be1f52811c69457a9a9dd99402a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/966a8c54421b30b1d19fc95792b49430/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7402c8ada5147599819c10bc494727b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/591673c0c7ef13b8f4936bb691609653/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/da70507baf720405558b2e8463a43a04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7aa383af9149574b8a0a2ad3610ced3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d6b51b47b7f795a547324186d5b77511/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/dd1a3b1b8f5d0fe2ede3cf672af28b09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5abaafcf718056158b5e0fb40deb95ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/40d26ce8b07c4f3fbfa061b0b99eb6e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/385da4ddbf293132846f0dc5a4c84f3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/157ad1e1a44d0510cb48c9686f173931/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/04316394f26c536138ede0c66a6be6d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1e1605151f25357ec663091f0249273d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/876aa8ce697c8d7e98a5040b0f3e215f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e6d2f0dfc462d4f227683e27baff1792/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9db88e9c353b899d1d94cef23bb564fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/efe11192fdaaf30b4123a16778c5a887/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/98c458d02a6446f2486b1d2f21300aa3/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5b8f3b86f4a842a6a341007bc34b771d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3d012693dacc1d043c7f201da92a0839/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/913dddc22f7921bdf59d4237a993aa2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3c7b51b2a0c4b29df308ca5674407096/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/fef1b203c076ffd89d244d3b604cf12d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56d915e57b0b6bd55954b02752acf938/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/949de8373de843a387a52a37376b3df9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b42aa09bae469a2d429bea7302c5f299/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3031a988b7db2e80ef38b1921d4b994/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.android.support:design:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/fb2547a0db45bb225d3a1e8cd80194ab/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/fb2547a0db45bb225d3a1e8cd80194ab/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/c069e079802145230a88bdf0ae11b30f/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/c069e079802145230a88bdf0ae11b30f/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e6d2f0dfc462d4f227683e27baff1792/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e6d2f0dfc462d4f227683e27baff1792/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/98c458d02a6446f2486b1d2f21300aa3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/98c458d02a6446f2486b1d2f21300aa3/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:8:9-33
+activity#com.example.benki.epicture.MainActivity
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.benki.epicture.PicturesActivity
+ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:22:9-23:20
+	android:name
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml:22:19-51
+uses-sdk
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/fb2547a0db45bb225d3a1e8cd80194ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/fb2547a0db45bb225d3a1e8cd80194ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/304b50dec0450de3afd7eacc6e50392b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/304b50dec0450de3afd7eacc6e50392b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e426de36f90c4dedf2f1100b92faaa96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e426de36f90c4dedf2f1100b92faaa96/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/c069e079802145230a88bdf0ae11b30f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/c069e079802145230a88bdf0ae11b30f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6c67194ba08ab332ddcec29053f77b9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6c67194ba08ab332ddcec29053f77b9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3436be1f52811c69457a9a9dd99402a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3436be1f52811c69457a9a9dd99402a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/966a8c54421b30b1d19fc95792b49430/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/966a8c54421b30b1d19fc95792b49430/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7402c8ada5147599819c10bc494727b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7402c8ada5147599819c10bc494727b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/591673c0c7ef13b8f4936bb691609653/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/591673c0c7ef13b8f4936bb691609653/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/da70507baf720405558b2e8463a43a04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/da70507baf720405558b2e8463a43a04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7aa383af9149574b8a0a2ad3610ced3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7aa383af9149574b8a0a2ad3610ced3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d6b51b47b7f795a547324186d5b77511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d6b51b47b7f795a547324186d5b77511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/dd1a3b1b8f5d0fe2ede3cf672af28b09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/dd1a3b1b8f5d0fe2ede3cf672af28b09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5abaafcf718056158b5e0fb40deb95ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5abaafcf718056158b5e0fb40deb95ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/40d26ce8b07c4f3fbfa061b0b99eb6e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/40d26ce8b07c4f3fbfa061b0b99eb6e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/385da4ddbf293132846f0dc5a4c84f3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/385da4ddbf293132846f0dc5a4c84f3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/157ad1e1a44d0510cb48c9686f173931/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/157ad1e1a44d0510cb48c9686f173931/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/04316394f26c536138ede0c66a6be6d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/04316394f26c536138ede0c66a6be6d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1e1605151f25357ec663091f0249273d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1e1605151f25357ec663091f0249273d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/876aa8ce697c8d7e98a5040b0f3e215f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/876aa8ce697c8d7e98a5040b0f3e215f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/986105ceeaeae73a11cbb0b100b241b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e6d2f0dfc462d4f227683e27baff1792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e6d2f0dfc462d4f227683e27baff1792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9db88e9c353b899d1d94cef23bb564fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9db88e9c353b899d1d94cef23bb564fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/efe11192fdaaf30b4123a16778c5a887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/efe11192fdaaf30b4123a16778c5a887/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/98c458d02a6446f2486b1d2f21300aa3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/benki/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/98c458d02a6446f2486b1d2f21300aa3/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5b8f3b86f4a842a6a341007bc34b771d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5b8f3b86f4a842a6a341007bc34b771d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3d012693dacc1d043c7f201da92a0839/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3d012693dacc1d043c7f201da92a0839/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/913dddc22f7921bdf59d4237a993aa2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/913dddc22f7921bdf59d4237a993aa2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3c7b51b2a0c4b29df308ca5674407096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3c7b51b2a0c4b29df308ca5674407096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/fef1b203c076ffd89d244d3b604cf12d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/benki/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/fef1b203c076ffd89d244d3b604cf12d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56d915e57b0b6bd55954b02752acf938/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56d915e57b0b6bd55954b02752acf938/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/949de8373de843a387a52a37376b3df9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/949de8373de843a387a52a37376b3df9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b42aa09bae469a2d429bea7302c5f299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b42aa09bae469a2d429bea7302c5f299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3031a988b7db2e80ef38b1921d4b994/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/benki/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3031a988b7db2e80ef38b1921d4b994/AndroidManifest.xml:20:5-44
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		ADDED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
+		INJECTED from /home/benki/Epitech/DEV_epicture_2018/app/src/main/AndroidManifest.xml
