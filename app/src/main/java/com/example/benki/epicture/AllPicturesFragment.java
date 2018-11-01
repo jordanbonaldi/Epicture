@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.benki.epicture.ImgurAPI.ImgurAPI;
+import com.example.benki.epicture.ImgurAPI.Instances.Picture;
 import com.example.benki.epicture.ImgurAPI.Instances.PictureManager;
 
 import java.util.List;
@@ -41,14 +42,14 @@ public class AllPicturesFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
 
-        new AsyncTask<Void, Void, List<PictureManager.Pictures>>() {
+        new AsyncTask<Void, Void, List<Picture>>() {
             @Override
-            protected List<PictureManager.Pictures> doInBackground(Void... voids) {
-                return ImgurAPI.getPictures(epicture.getManager());
+            protected List<Picture> doInBackground(Void... voids) {
+                return ImgurAPI.getUserPictures(epicture.getManager());
             }
 
             @Override
-            protected void onPostExecute(List<PictureManager.Pictures> pictures) {
+            protected void onPostExecute(List<Picture> pictures) {
                 super.onPostExecute(pictures);
                 PicturesAdapter mAdapter = new PicturesAdapter(getContext(), pictures);
                 mRecyclerView.setAdapter(mAdapter);

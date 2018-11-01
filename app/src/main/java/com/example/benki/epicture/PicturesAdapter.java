@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.benki.epicture.ImgurAPI.Instances.Picture;
 import com.example.benki.epicture.ImgurAPI.Instances.PictureManager;
 
 import java.util.List;
@@ -20,7 +21,7 @@ import java.util.List;
 
 public class PicturesAdapter extends RecyclerView.Adapter<PicturesAdapter.MyViewHolder> {
 
-    private List<PictureManager.Pictures> pictures;
+    private List<Picture> pictures;
     private Context mContext;
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -37,7 +38,7 @@ public class PicturesAdapter extends RecyclerView.Adapter<PicturesAdapter.MyView
         }
     }
 
-    public PicturesAdapter(Context context, List<PictureManager.Pictures> pictures) {
+    public PicturesAdapter(Context context, List<Picture> pictures) {
         this.pictures = pictures;
         this.mContext = context;
     }
@@ -52,7 +53,7 @@ public class PicturesAdapter extends RecyclerView.Adapter<PicturesAdapter.MyView
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        PictureManager.Pictures picture = pictures.get(position);
+        Picture picture = pictures.get(position);
         holder.points.setText(picture.getVote() + " Points");
         holder.title.setText(picture.getTitle());
 

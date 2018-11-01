@@ -14,6 +14,7 @@ public class Epicture extends Application {
     private String refreshToken = "";
     private String username = "";
     private String accessToken = "";
+    private String cliendid = "f98676cf23e9ab9";
 
     private RequestManager manager;
 
@@ -46,6 +47,6 @@ public class Epicture extends Application {
     }
 
     public void createManager() {
-        manager = new RequestManager(username, accessToken);
+        manager = new RequestManager(username, accessToken, cliendid);
     }
 }
