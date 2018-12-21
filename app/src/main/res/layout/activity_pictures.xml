@@ -15,8 +15,10 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
+        android:background="@color/dimgrey"
         app:menu="@menu/menu_pictures"
-        android:layout_weight = "0"/>
+        android:layout_weight = "0"
+        app:itemTextColor="@color/navigation_colors"
+        app:itemIconTint="@color/navigation_colors"/>
 
 </LinearLayout>

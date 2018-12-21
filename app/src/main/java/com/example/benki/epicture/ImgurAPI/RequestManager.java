@@ -1,26 +1,19 @@
 package com.example.benki.epicture.ImgurAPI;
 
-import android.util.Log;
-
 import com.example.benki.epicture.ImgurAPI.Instances.ImgurInstances;
 import com.example.benki.epicture.Utils.UrlRequester;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
 
+@Getter
 public class RequestManager {
 
     private final String username;
@@ -31,6 +24,7 @@ public class RequestManager {
 
     private final HashMap<String, String> params;
 
+    @Getter
     private final UserSettings settings;
 
     @Getter
@@ -62,7 +56,7 @@ public class RequestManager {
         String formatted = url;
 
         for (int i = 1; i <= params.size(); i++) {
-            formatted = url.replaceAll("@" + i, params.get(i - 1));
+            formatted = formatted.replaceAll("@" + i, params.get(i - 1));
         }
 
         return formatted;
@@ -70,13 +64,16 @@ public class RequestManager {
 
     public ImgurInstances newRequest(String url, RequestProcessing process, Class<? extends ImgurInstances> clazz, String ... params) {
         String formattedUrl = this.formattingUrl(url, Arrays.asList(params));
+
+        System.out.println(formattedUrl);
+
         ImgurInstances instance;
 
         this.setHeader(process.setAuthorisation(this.settings));
 
         try {
             String _response = UrlRequester.launchRequest(formattedUrl, this.params);
-            Log.d("JORDI", "WESH=" + _response);
+            System.out.println(_response);
             JSONObject _obj = new JSONObject(_response);
 
             final Constructor constructor = clazz.getDeclaredConstructors()[0];
@@ -84,7 +81,30 @@ public class RequestManager {
             instance.deSerialize(_obj);
         } catch (Exception e) {
             e.printStackTrace();
-            Log.d("JORDI", "" + Log.getStackTraceString(e));
+            return null;
+        }
+
+        return instance;
+    }
+
+    public ImgurInstances newPostRequest(String url, RequestProcessing process, UrlRequester.actionOnPost act, Class<? extends ImgurInstances> clazz, String ... params) {
+        String formattedUrl = this.formattingUrl(url, Arrays.asList(params));
+        ImgurInstances instance;
+
+        this.setHeader(process.setAuthorisation(this.settings));
+
+        System.out.println(formattedUrl);
+
+        try {
+            String _response = UrlRequester.launchPostRequest(formattedUrl, this.params, act);
+            System.out.println(_response);
+            JSONObject _obj = new JSONObject(_response);
+
+            final Constructor constructor = clazz.getDeclaredConstructors()[0];
+            instance = (ImgurInstances) constructor.newInstance();
+            instance.deSerialize(_obj);
+        } catch (Exception e) {
+            e.printStackTrace();
             return null;
         }
 

@@ -2,25 +2,21 @@ package com.example.benki.epicture.Utils;
 
 import android.util.Log;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.BiConsumer;
 
-import okhttp3.Call;
-import okhttp3.Callback;
+import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
@@ -35,6 +31,12 @@ public class UrlRequester {
     private static int ACCESS = 200;
 
     private static int READ_SIZE = 1024;
+
+    public interface actionOnPost {
+        void action(Request.Builder build, RequestBody body);
+
+        RequestBody getRequestBody();
+    }
 
     private static void setHeaders(Request.Builder builder, HashMap<String, String> header) {
         for (Map.Entry<String, String> entries : header.entrySet()) {
@@ -63,8 +65,35 @@ public class UrlRequester {
 
         Response response = client.newCall(builder.build()).execute();
 
+        System.out.println(response.code());
+
         if (response.isSuccessful())
             return response.body().string();
-        return null;
+        return "";
+    }
+
+    public static String launchPostRequest(
+            String formattedUrl,
+            HashMap<String, String> header,
+            actionOnPost post
+    ) throws Exception
+    {
+        RequestBody requestBody = post.getRequestBody();
+
+        Request.Builder build = new Request.Builder().url(formattedUrl);
+
+        setHeaders(build, header);
+
+        post.action(build, requestBody);
+
+        OkHttpClient client = new OkHttpClient();
+        Response response = client.newCall(build.build()).execute();
+
+        System.out.println(response.code());
+
+        if (response.isSuccessful())
+            return response.body().string();
+
+        return new JSONObject().put("success", "false").toString();
     }
 }

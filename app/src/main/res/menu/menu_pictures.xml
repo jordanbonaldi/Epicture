@@ -4,19 +4,26 @@
     <item
         android:id="@+id/action_all_pictures"
         android:enabled="true"
-        android:icon="@drawable/ic_menu_camera"
+        android:icon="@drawable/ic_home"
         app:showAsAction="always"
-        android:title="" />
+        android:title="Home" />
     <item
-        android:id="@+id/action_schedules"
+        android:id="@+id/action_search"
         android:enabled="true"
-        android:icon="@drawable/ic_menu_gallery"
+        android:icon="@drawable/ic_searcher"
         app:showAsAction="always"
-        android:title="" />
+        android:title="Search" />
     <item
-        android:id="@+id/action_music"
+        android:id="@+id/action_upload"
         android:enabled="true"
-        android:icon="@drawable/ic_menu_share"
+        android:icon="@drawable/ic_camera"
         app:showAsAction="always"
-        android:title="" />
+        android:title="Upload" />
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        app:showAsAction="always"
+        android:title="Profile" />
+
 </menu>
